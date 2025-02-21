@@ -1,16 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CanvasComponent } from './canvas.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [CanvasComponent],
   template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
+    <app-canvas />
   `,
   styles: [],
 })
 export class AppComponent {
-  title = 'angular-canvas-demo';
 }
