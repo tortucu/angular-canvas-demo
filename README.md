@@ -1,4 +1,5 @@
 # Angular Canvas Demo
+<img align="right" width="350" src="https://github.com/tortcu/blob/main/Animation.gif" />
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
 
